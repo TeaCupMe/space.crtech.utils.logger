@@ -23,4 +23,23 @@
     </dependencies>
 
 
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>TeaCupMe</name>
+            <url>https://maven.pkg.github.com/TeaCupMe/space.crtech.utils.logger</url>
+        </repository>
+    </distributionManagement>
+
+    <repositories>
+        <repository>
+            <id>github</id>
+            <name>TeaCupMe</name>
+            <url>https://maven.pkg.github.com/TeaCupMe/*</url>
+        </repository>
+    </repositories>
+
+
+
 </project>
